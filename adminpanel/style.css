@@ -1,0 +1,31 @@
+body {
+    background-color: #1c1c1c;
+}
+.navbar navbar-inverse navbar-fixed-top  {
+	height:100px;
+	
+}
+li {
+	
+	padding-top:40px;
+}
+
+.eventname{
+	display:inline;
+}
+.led-green {
+    display:inline-block;
+	width: 12px;
+    height: 12px;
+    background-color: #690;
+    border-radius: 50%;
+    box-shadow: #000 0 -1px 7px 1px, inset #460 0 -1px 9px, #7D0 0 2px 12px;
+}
+.led-red {
+	display:inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: #940;
+    border-radius: 50%;
+    box-shadow: #000 0 -1px 7px 1px, inset #600 0 -1px 9px, #F00 0 2px 12px;
+}
